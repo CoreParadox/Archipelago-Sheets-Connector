@@ -1,0 +1,20 @@
+{
+    "GoogleSheets":{
+        //oauth scopes
+        "scopes":["https://www.googleapis.com/auth/spreadsheets"],
+        //the spreadsheet id https://docs.google.com/spreadsheets/d/{spreadsheetId}/edit
+        "spreadsheetId": "",
+        //Name of sheet containing the data
+        "sheetName":"",
+        //Range of data to update (should be 3 columns total: from, item, to) 
+        "range":"A2:C",
+        //how sheets processes data
+        "valueInputOption": "RAW"
+    },
+    "Archipelago":{
+        //the room id for archipelago (https://archipelago.gg/room/{roomId})
+        "roomId": "",
+        //the cookie from the browser that created the archipelago game
+        "cookie": "session=eyJfaWQiOnsiIHUiOiI0YzgwNzIxNDQ1Mzc0ZmVjOTM3MWZlZTJjMGI2NWZiNyJ9LCJfcGVybWFuZW50Ijp0cnVlfQ.Y5iGEg.FSfCUi1d0gKHpyU2vKcL_pmNwDE"
+    }
+}
